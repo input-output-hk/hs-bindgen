@@ -1,0 +1,18 @@
+[package]
+authors = ["Yvan Sraka <yvan@sraka.xyz>"]
+description = "Utility types behind hs-bindgen ergonomics"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+name = "hs-bindgen-types"
+repository = "https://github.com/yvan-sraka/hs-bindgen-types"
+rust-version = "1.64.0"
+version = "0.9.1"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cfg-if = "1.0.0"
+displaydoc = "0.2"
+proc-macro2 = "1.0"
+quote = "1.0"
+thiserror = "1.0"
